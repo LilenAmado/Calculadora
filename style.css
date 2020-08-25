@@ -1,0 +1,142 @@
+body{
+    background-image: url(img.jpg);
+    background-repeat: repeat;
+}
+.calculadora{
+    max-width: 350px;
+    height: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgba(255, 255, 255, 0.336);
+    border-radius: 40px;
+    margin-top: 5rem;
+    -webkit-box-shadow: 0px 0px 35px 7px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 0px 35px 7px rgba(0,0,0,0.75);
+box-shadow: 0px 0px 35px 7px rgba(0,0,0,0.75);
+}
+.bnt{
+    background-color: crimson;
+    width: 3.5rem;
+    height: 3.5rem;
+    border: none;
+    margin: .7rem;
+    border-radius: 20px;
+    color: white;
+    font-weight: 700;
+    -webkit-box-shadow: 0px 0px 11px 3px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 11px 3px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 11px 3px rgba(0,0,0,0.75);
+}
+.bnt:hover{
+    background-color: black;
+}
+.bnt:active{
+    background-color: tomato;
+    border: white 3px solid;
+}
+.entero{
+    padding-top: 1rem;
+    margin-left: .65rem;
+}
+.pantalla{
+    width: 310px; 
+    height: 80px; 
+    background-color: #f0f8ff;
+    border-radius: 30px;
+    margin-top: 2rem; 
+    margin-bottom: 2rem; 
+    margin-left: .5rem;
+    -webkit-box-shadow: 0px 0px 11px 3px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 11px 3px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 11px 3px rgba(0,0,0,0.75);
+}
+.calculosPantalla{
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 35px;
+    font-weight: 700;
+    font-size: 27px;
+}
+@media screen and (max-width: 368px){
+    .calculadora{
+        max-width: 100%;
+        height: 500px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 5rem;
+    }
+    .bnt{
+        width: 3rem;
+        height: 3rem;
+    }
+    .btn1{
+        /*margin-left: 1.2rem;*/
+        margin-left: 0rem;
+    }
+    .btn2{
+        margin-left: 0rem;
+    }
+    .btn3{
+        margin-left: 0rem;
+    }
+    .btn4{
+        margin-left: 0rem;
+    }
+    .cajas{
+        max-width: 250px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .pantalla{
+        width: 90%; 
+        height: 80px; 
+        margin-top: 2rem; 
+        margin-bottom: 2rem; 
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .entero{
+        padding-top: 1rem;
+        margin-left: .65rem;
+    }
+}
+@media screen and (max-width: 275px){
+    .bnt{
+        width: 18%;
+        height: 28px;
+    }
+    .calculadora{
+        max-width: 350px;
+        height: 100%;
+    }
+    .btn1{
+        margin-left: 0rem;
+    }
+    .btn2{
+        margin-left: 0rem;
+    }
+    .btn3{
+        margin-left: 0rem;
+    }
+    .btn4{
+        margin-left: 0rem;
+    }
+    .cajas{
+        max-width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .pantalla{
+        width: 90%; 
+        height: 80px; 
+        margin-top: 2rem; 
+        margin-bottom: 2rem; 
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .entero{
+        padding-top: 1rem;
+        margin-left: .65rem;
+        padding-bottom: 1rem;
+    }
+} 
