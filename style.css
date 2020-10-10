@@ -1,3 +1,9 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
 body{
     background-image: url(img.jpg);
     background-repeat: repeat;
@@ -8,19 +14,19 @@ body{
     margin-left: auto;
     margin-right: auto;
     background-color: rgba(255, 255, 255, 0.336);
-    border-radius: 40px;
+    border-radius: 10px;
     margin-top: 5rem;
     -webkit-box-shadow: 0px 0px 35px 7px rgba(0,0,0,0.75);
 -moz-box-shadow: 0px 0px 35px 7px rgba(0,0,0,0.75);
 box-shadow: 0px 0px 35px 7px rgba(0,0,0,0.75);
 }
 .bnt{
-    background-color: crimson;
+    background-color:  rgba(152, 118, 231, 0.603);
     width: 3.5rem;
     height: 3.5rem;
     border: none;
     margin: .7rem;
-    border-radius: 20px;
+    border-radius: 10px;
     color: white;
     font-weight: 700;
     -webkit-box-shadow: 0px 0px 11px 3px rgba(0,0,0,0.75);
@@ -38,7 +44,7 @@ box-shadow: 0px 0px 35px 7px rgba(0,0,0,0.75);
     width: 310px; 
     height: 80px; 
     background-color: #f0f8ff;
-    border-radius: 30px;
+    border-radius: 10px;
     margin-top: 2rem; 
     margin-bottom: 2rem; 
     margin-left: .5rem;
